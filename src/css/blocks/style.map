@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../../sass/blocks/style.sass",
+		"../../sass/blocks/_colors.sass",
+		"../../sass/blocks/_interface.sass",
+		"../../sass/blocks/_navbar.sass"
+	],
+	"sourcesContent": [
+		"@import 'colors';\n\n@import 'interface';\n\n@import 'navbar';\n",
+		"",
+		".container {\n\twidth: 1170px;\n\tmargin: auto; }\n\n.navbar-block {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center; }\n\n",
+		""
+	],
+	"names": [],
+	"mappings": ";AEAA,AAAA,UAAU,CAAC;EACV,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,IAAI;CAAG;;;AAEhB,AAAA,aAAa,CAAC;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CAAG"
+}
