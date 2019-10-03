@@ -1,31 +1,42 @@
+/* line 1, ../projects/repair/src/sass/blocks/_interface.sass */
 body {
   font-family: sans-serif;
 }
 
+/* line 4, ../projects/repair/src/sass/blocks/_interface.sass */
+img {
+  max-width: 100%;
+}
+
+/* line 7, ../projects/repair/src/sass/blocks/_interface.sass */
 .container {
   width: 1170px;
   margin: auto;
 }
 
 @media (max-width: 1200px) {
+  /* line 12, ../projects/repair/src/sass/blocks/_interface.sass */
   .container {
-    width: 960px;
+    width: 760px;
   }
 }
 
 @media (max-width: 768px) {
+  /* line 17, ../projects/repair/src/sass/blocks/_interface.sass */
   .container {
-    max-width: 750px;
+    max-width: 580px;
     width: 95%;
   }
 }
 
 @media (max-width: 480px) {
+  /* line 23, ../projects/repair/src/sass/blocks/_interface.sass */
   .container {
     width: 960px;
   }
 }
 
+/* line 26, ../projects/repair/src/sass/blocks/_interface.sass */
 .button {
   border-radius: 10px;
   background-color: #ffd200;
@@ -33,31 +44,37 @@ body {
   padding: 18px 30px;
 }
 
+/* line 1, ../projects/repair/src/sass/blocks/_navbar.sass */
 .navbar {
   padding: 8px 0;
 }
 
+/* line 3, ../projects/repair/src/sass/blocks/_navbar.sass */
 .navbar-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* line 7, ../projects/repair/src/sass/blocks/_navbar.sass */
 .navbar__info {
   display: flex;
   align-items: center;
   text-align: right;
 }
 
+/* line 11, ../projects/repair/src/sass/blocks/_navbar.sass */
 .navbar__address {
   display: flex;
   flex-direction: column;
 }
 
+/* line 14, ../projects/repair/src/sass/blocks/_navbar.sass */
 .navbar__button {
   margin-left: 30px;
 }
 
+/* line 16, ../projects/repair/src/sass/blocks/_navbar.sass */
 .navbar__phone {
   display: inline-block;
   color: #333333;
@@ -68,10 +85,113 @@ body {
 }
 
 @media (max-width: 768px) {
+  /* line 25, ../projects/repair/src/sass/blocks/_navbar.sass */
   .navbar__contacts {
     display: none;
   }
+  /* line 27, ../projects/repair/src/sass/blocks/_navbar.sass */
   .navbar__button {
+    font-size: 12px;
+    padding: 15px 26px;
+  }
+  /* line 30, ../projects/repair/src/sass/blocks/_navbar.sass */
+  .navbar__logo {
+    width: 90px;
+  }
+}
+
+/* line 1, ../projects/repair/src/sass/blocks/_hero.sass */
+.hero {
+  padding: 50px 0;
+}
+
+/* line 3, ../projects/repair/src/sass/blocks/_hero.sass */
+.hero-block {
+  display: flex;
+}
+
+/* line 5, ../projects/repair/src/sass/blocks/_hero.sass */
+.hero-text {
+  flex-basis: 50%;
+  padding-right: 140px;
+}
+
+/* line 8, ../projects/repair/src/sass/blocks/_hero.sass */
+.hero-text__title {
+  font-size: 41px;
+  font-weight: 750;
+  line-height: 55px;
+  margin-bottom: 40px;
+}
+
+/* line 13, ../projects/repair/src/sass/blocks/_hero.sass */
+.hero-text__subtitle {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 69px;
+}
+
+/* line 18, ../projects/repair/src/sass/blocks/_hero.sass */
+.hero-list {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 21, ../projects/repair/src/sass/blocks/_hero.sass */
+.hero-list__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+/* line 25, ../projects/repair/src/sass/blocks/_hero.sass */
+.hero-list__image {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffd200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+/* line 34, ../projects/repair/src/sass/blocks/_hero.sass */
+.hero-list__text {
+  max-width: 300px;
+}
+
+@media (max-width: 1200px) {
+  /* line 39, ../projects/repair/src/sass/blocks/_hero.sass */
+  .hero-block {
+    flex-direction: column;
+  }
+  /* line 41, ../projects/repair/src/sass/blocks/_hero.sass */
+  .hero-list {
+    margin-bottom: 44px;
+  }
+  /* line 43, ../projects/repair/src/sass/blocks/_hero.sass */
+  .hero-text {
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 49, ../projects/repair/src/sass/blocks/_hero.sass */
+  .hero-text__title {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+  /* line 53, ../projects/repair/src/sass/blocks/_hero.sass */
+  .hero-text__subtitle {
+    font-size: 16px;
+  }
+  /* line 55, ../projects/repair/src/sass/blocks/_hero.sass */
+  .hero-list {
     font-size: 12px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
